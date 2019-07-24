@@ -1,0 +1,9 @@
+{
+  "port": ":8888",
+  "database": {
+    "apply_uri": "mongodb://127.0.0.1:27017",
+    "database_name": "tcbe",
+    "patient_collection_name": "patients",
+    "illness_collection_name": "illnesses"
+  }
+}

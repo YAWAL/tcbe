@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "329ef05f-2a9c-4f36-b80d-9a51036c8921",
+		"name": "tcbe",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetPatient",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/patient/5d2a29b10e35736e1d4a0675",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"patient",
+						"5d2a29b10e35736e1d4a0675"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetIllness",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/illness/firstilln",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"illness",
+						"firstilln"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
